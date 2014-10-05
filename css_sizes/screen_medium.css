@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS Document */
+
+
+/*       Main styles        */ 
+
+
+a {				text-decoration:none; 
+				color:#000; 
+} 
+
+a.hover:hover {	padding-bottom:50px;
+}
+
+p {				padding:0 20px 0 20px; 
+				font-family: sans-serif; 
+} 
+
+h1	{			font-family: 'Varela Round', sans-serif;
+}
+
+h2 { 			font-size:16px; 
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+				text-align:center; 
+				padding-top:20px; 
+} 
+
+h3 {			font-size:16px; 
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+
+
+/* 		Splash page 		*/ 
+ 
+body {			margin-left:-10px; 
+				margin-right:-10px; 
+				height:950px;
+				background-image:url(Images/use_your_illusion.jpg); 
+				background-repeat:repeat;    
+} 
+
+ 
+body.earth {	background-image:url(Images/Nasa_blue_marble1.jpg); 
+				background-repeat:no-repeat; 
+}		
+
+#main {			width:1000px; 
+				margin-left:auto; 
+				margin-right:auto; 
+}
+  
+#main img { 	position:fixed; 			  
+				z-index:1;
+				width:730px;
+				margin:100px 0 0 140px;
+} 
+
+#blue {   		position:absolute; 
+				z-index:2; 
+				margin:50px 0 0 380px;  
+}
+ 
+#blue img { 	width:290px; 
+				height:300px;  
+} 
+
+#red {   		position:absolute; 
+				z-index:2; 
+				margin:360px 0 0 48px; 
+}
+ 
+#red img { 		width:310px; 
+				height:310px; 
+} 
+
+#yellow {   	position:absolute; 
+				z-index:2; 
+				margin:55px 0 0 60px;  
+} 
+
+#yellow img{	width:290px; 
+				height:290px; } 
+	
+
+#green {   		position:absolute; 
+				z-index:2; 
+				margin:370px 0 0 375px;  
+}
+
+#green img { 	width:290px; 
+				height:290px; 
+} 
+		
+#center  {   	position:absolute; 
+				z-index:3;
+				margin:210px 0 0 220px; 
+}
+ 
+#center img { 	width:290px; 
+} 
+
+
+
+/*         Template		   */ 
+
+
+/*   	header 		 */ 
+
+header {		width:100%; 
+				height:160px; 
+				background-color:#000; 
+				opacity:0.5; 
+				margin-top:-15px; 
+} 
+
+#header_pos {	width:800px; 
+				height:150px; 
+				margin-left:auto; 
+				margin-right:auto; 
+				background-image:url(Images/nav/header.jpg); 
+				background-position:center;   
+}	 
+
+
+/*  		nav		     */ 
+
+#nav_pos { 		width:800px; 
+				margin-left:auto; 
+				margin-right:auto;   
+} 
+
+nav {  			max-width:100%; 
+				height:50px; 
+				background-color:#232323; 
+				margin-left:auto; 
+				margin-right:auto; 
+				opacity:0.5;   
+}
+ 
+nav a {			margin-right:-4px;  
+}
+ 
+
+
+
+/*   nav rollovers   */ 
+
+
+
+.image_1 { 		display: inline-block;
+				width:100px;
+ 				height:50px; 
+				background: url(Images/nav/designs_nav4.jpg);
+} 
+
+.image_1:hover {background-position:0px -50px; 
+}
+
+.image_2 { 		display: inline-block;
+				width:100px;
+ 				height:50px; 
+				background: url(Images/nav/about_nav4.jpg);
+} 
+
+.image_2:hover {background-position:0px -50px; 
+}
+
+.image_3 {		display: inline-block;
+				width:100px;
+ 				height:50px; 
+				background: url(Images/nav/contact_nav4.jpg);
+} 
+
+.image_3:hover {background-position:0px -50px; 
+}
+
+.image_4 { 		display: inline-block; 
+				width:100px;
+ 				height:50px; 
+				background: url(Images/nav/blog_nav4.jpg);
+} 
+
+.image_4:hover {background-position:0px -50px; 
+}
+
+
+
+/*    		body 		*/ 
+
+
+#mainbody  { 	width:600px; 
+				height:600px;  
+				background-color:#736963; 
+				margin:0px auto -16px auto; 
+				opacity:0.5; 
+				color:#000;  }  
+				
+#altbody  {  	width:400px; 
+				height:600px;  
+				background-color:#736963; 
+				margin:-12px auto -16px auto; 
+				opacity:0.5; 
+				color:#000;  
+} 
+	
+	
+/*  	 	footer 	 		*/ 
+
+
+footer {		width:100%; 
+				height:160px; 
+				background-color:#000; 
+				margin-left:auto; 
+				margin-right:auto; 
+				opacity:0.5;  
+} 
+
+/*    sm icons   */  
+
+#links {		float:right; 
+				padding-right:50px;   
+} 
+
+
+/*    Categories   */ 
+
+
+
+/* lightbox images and containers    */ 
+
+.img img { 		width:200px; 
+				padding:50px 50px 10px 100px; 
+}
+ 
+.img h6  { 		text-decoration:none;
+				width:200px; 
+				padding-left:100px; 
+				text-align:center; 
+				font-size:16px; 
+}
+ 
+.img a  { 		text-decoration:none; 
+} 
+
+
+
+/*  Portfolio image spacing and placement */ 
+
+.right {		float:right; 
+				margin-top:-450px; 
+				margin-right:90px; 
+}
+ 
+.gilly	{		float:right; 
+				margin-top:-380px; 
+				margin-right:90px; 
+}
+ 
+.wizard {		float:right; 
+				margin-top:-445px; 
+				margin-right:90px; 
+}
+ 
+.chichi {		float:right; 
+				margin-top:-250px; 
+				margin-right:90px; 
+}
+ 
+.altbrick {		float:right; 
+				margin-top:-735px; 
+				margin-right:50px 
+} 
+
+#position {		margin-left:20px; 
+}
+
+#positionposter{padding-left:30px; 
+}  
+
+.overflow {		overflow:scroll; 
+} 
+
+
+
+
+/*  Websites.html   */ 
+
+.eb-website-link img {	padding-left:240px; 
+						padding-top:30px; 
+} 
+
+
+/* about.html */ 
+
+.me { 					margin-top:-42px; 
+						opacity:0.5; 
+						margin-right:10px; 
+						float:right; 
+}
+
+.about-text { 			width:400px; 
+						float:left; 
+}
+
+h3.about-text  {		width:400px; 
+						margin-left:20px; 
+						padding-top:10px; 
+} 
+
+
+/* contact */
+ 
+input {					margin-bottom:-8px; 
+} 
+
+input.box {				width:400px; 
+}
+ 
+.forms { 				text-align:center;  
+}
+ 
+.alienpic {				margin-left:175px; 
+						padding-top:30px; 
+} 
+
+/*  Roundabout  */ 
+
+
+.roundabout-holder {	list-style: none;
+      					padding: 0;
+      					margin:20px 0 0 10px;
+      					height: 20em;
+      					width: 15em;
+}
+   
+.roundabout-holder h3 {	text-align:center; 
+ 						color:#333333;  
+} 
+ 
+.roundabout-holder a {	text-decoration:none; 
+} 
+ 
+.roundabout-moveable-item {	height: 20em;
+      						width: 20em;
+      						cursor: pointer;
+      						background-color:#736963; 
+      						border:none;
+}
+
+.roundabout-in-focus {	cursor: auto;
+}
